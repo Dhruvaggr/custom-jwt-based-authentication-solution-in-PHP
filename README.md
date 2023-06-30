@@ -4,7 +4,7 @@
 
 Step 1.  Imported CSV file to DB in PHP. <strong>[index.php , csv_import.php]</strong><br><br>
 Step 2.  POST method to retrive the data of the json request which is sent from the body header -> raw in POSTMAN. (Image is attached.) and secret key is passed from 
-         the authorization header.<strong>[apijwt.php]</strong><br><br>
+         the authorization header.<strong>[apijwt.php]</strong><br>
 Step 3.  Authorized with api key. <strong>[readapi.php]</strong> <br>
 Step 4.  After authorization,create JSON WEB TOKEN(JWTs) using HEADERS.PAYLOAD.SIGNATURE.(base64URL_encoded). Algorithm used in signature is SHA256.
          <strong> [readapi.php]</strong> <br><br>
